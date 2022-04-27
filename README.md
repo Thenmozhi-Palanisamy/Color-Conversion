@@ -1,4 +1,5 @@
 Color Conversion
+
 AIM
 To perform the color conversion between RGB, BGR, HSV, and YCbCr color models.
 
@@ -22,9 +23,9 @@ STEP 5:
 Split and merge HSV Image using: hsv=cv2.cvtColor(image,cv2.COLOR_BGR2HSV) h, s, v = cv2.split(hsv) cv2.merge((h,s,v))
 
 Program:
-# Developed By: Thenmozhi P
-# Register Number:212221230116
-# i) Convert BGR and RGB to HSV and GRAY
+ Developed By: Thenmozhi P
+ Register Number:212221230116
+ i) Convert BGR and RGB to HSV and GRAY
 import cv2
 image=cv2.imread("rgb.jpg")
 cv2.imshow("ORIGINAL IMAGE",image)
