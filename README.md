@@ -84,6 +84,7 @@ cv2.imshow('v_plane', v)
 mergedhsv=cv2.merge((h,s,v))
 cv2.imshow('merged',mergedhsv)
 cv2.waitKey(0)
+```
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 ![output](.//t1.png)
